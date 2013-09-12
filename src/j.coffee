@@ -120,6 +120,8 @@ define (require) ->
 
       fetchText path, (text) ->
         func = compile text,
+          basedir: config.baseUrl
+          filename: path
           client: true
 
         buildMap[name] = func if config.isBuild
