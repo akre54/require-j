@@ -74,7 +74,7 @@ define (require) ->
       callback content
 
 
-  if process?.versions?.node?
+  if true # process?.versions?.node?
     jade.Parser::parseInclude = ->
       baseUrl = require.toUrl '.'
 
