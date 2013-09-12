@@ -1,0 +1,27 @@
+{
+  "name": "require-j",
+  "version": "0.0.1",
+  "homepage": "https://github.com/akre54/r-jade",
+  "description": "RequireJS Jade plugin that supports template inheritance.",
+  "authors": [
+    {
+      "name": "Mark Fayngersh",
+      "email": "mark.fayngersh@gmail.com"
+    },
+    {
+      "name": "Adam Krebs",
+      "email": "amk528@cs.nyu.edu"
+    }
+  ],
+  "keywords": [
+    "requirejs",
+    "jade",
+    "template",
+    "client",
+    "js"
+  ],
+  "main": "lib/j.js",
+  "dependencies": {
+    "jade": "~0.35.0"
+  }
+}
